@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная старница
+{% endblock %}
+
+{% block body %}
+<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="static/css/style_base.css">
+<div>
+    <img src="static/img/bmw_picture.jpg" class="img-fluid">
+    <div class="bottom-left">BMW</div>
+    <div class="bottom-left1">РАЗНЫХ ВИДОВ И МОДЕЛЕЙ</div>
+</div>
+<h2 class="container text-center">ВЫБЕРИТЕ СВОЮ BMW</h2>
+<div class="d-flex">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="BMW">
+            <img src="static/img/icon/book_icon.png">
+            <h3>ВСЁ О МАШИНАХ BMW</h3>
+        </div>
+        <div class="BMW1">
+            <img src="static/img/icon/car_icon.png">
+            <h3 style="align=center">РАЗНООБРАЗИЕ МАШИН</h3>
+        </div>
+        <div class="BMW2">
+            <img src="static/img/icon/characteristic_icon.png">
+            <h3>ВОЗМОЖНОСТИ МАШИН</h3>
+        </div>
+    </div>
+</div>
+{% endblock %}
